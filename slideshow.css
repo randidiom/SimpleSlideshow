@@ -1,0 +1,58 @@
+#slideshow {
+    width: 1080px; 
+    display: none;
+    background: rgba(0,0,0,0);
+    position: relative;
+}
+
+#slideshow img {
+    margin: 0px;
+}
+
+#slideshow div {
+    position: absolute;
+    margin: 0px;
+    padding: 0px;
+}
+
+#slideshow div div {
+    display: inline-block;
+    position: absolute;
+    top: 0em;
+    width: 98.7%;
+    padding: 0.65%;
+    
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.3);
+    
+    font-size: 1.3em;
+    font-family: Arial;
+    font-weight: bold;
+}
+
+.slide-invisible {
+    display: none;
+}
+
+#slideshow-arrow-left, #slideshow-arrow-right {
+    position: absolute;
+    top: 275px;
+	
+    font: 5em bold;
+    font-family: Arial;
+    line-height: 0.7em;
+	
+    display: block;
+    color: white;
+    background-color: rgba(30,30,30,0.7);
+}
+
+#slideshow-arrow-left {
+    left: 0px;
+}
+
+#slideshow-arrow-right {
+    right: 0px;
+}
+
